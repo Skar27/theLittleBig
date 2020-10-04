@@ -1,0 +1,212 @@
+body{
+  text-align: center;
+  font-family: Montserrat;
+}
+
+h1,h2,h3,h4{
+  padding-bottom:3%;
+}
+.paratext{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* title section */
+#title{
+  background-color: #0f4c75;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 12% ;
+}
+/* navbar part */
+.navbar{
+  color:white;
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Sacramento;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/* title text */
+.heading-title{
+  font-weight: 900;
+  padding: 10% 0 5%;
+  text-align: left;
+}
+.para-text{
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+}
+.title-btn{
+  margin: 5% 3% 5% 0;
+  float: left;
+}
+
+/* title img carousel*/
+.title-img{
+  width:65%;
+}
+.carousel-inner{
+  height:390px;
+}
+
+#features{
+  padding: 7%;
+}
+.icon{
+  font-size: 50px;
+  padding: 5% 0 3%;
+  color:#3282b8;
+}
+.icon:hover{
+  color:#0f4c75;
+}
+.heading-text{
+  font-weight: 700;
+}
+/* About us section */
+#about{
+  text-align: left;
+  padding: 0 12% ;
+  background-color: #bbe1fa;
+}
+.about-text{
+  font-weight: 500;
+  line-height:1.5;
+  padding:7% 0;
+}
+.about-img{
+  margin-left: 30%;
+  width:40%;
+  transform: rotate(30deg);
+  position:absolute;
+}
+
+
+/* products section */
+
+#products{
+  position:relative;
+  background-color: #fff;
+  padding: 7% 10%;
+}
+
+.card{
+  margin:3%;
+}
+.card-header{
+  font-weight: 900;
+  padding:5%;
+}
+.product-img{
+  position:relative;
+  margin:7% 3% 3%;
+  width:60%;
+}
+.carousel-caption{
+  position:relative;
+  left: 0;
+  top:0;
+}
+.develop{
+  margin: 0 auto;
+  float:none;
+}
+
+
+/* cta section */
+#cta{
+  padding: 7% 15%;
+  background-color: #0f4c75;
+  color: white;
+  line-height: 2;
+}
+.heading-cta{
+  font-size:3rem;
+  font-weight:700;
+  padding-bottom: 3%;
+}
+.fa-google-play{
+  color:#bbe1fa;
+  padding-left: 100px;
+  transform: rotate(25deg);
+  font-size: 400%
+}
+.fa-apple{
+  color:#bbe1fa;
+  padding-right: 100px;
+  transform: rotate(-25deg);
+  font-size: 400%
+}
+
+/* footer section */
+footer{
+  text-align: center;
+}
+.footicon{
+  padding: 10% 3% 3%;
+  font-size: 30px;
+  color:black;
+}
+.footicon:hover{
+  text-decoration: none;
+}
+
+@media (max-width:992px){
+  /* title */
+  .heading-title{
+    text-align: center;
+  }
+  .para-text{
+    text-align: center;
+  }
+  .title-btn{
+    float:none;
+  }
+  .title-img{
+    width:45%
+  }
+
+  /* about */
+  .about-text{
+    padding-top:0;
+  }
+  .about-img{
+    transform: rotate(0deg);
+    margin-left: 0;
+    position:static;
+    width:20%;
+  }
+  .aboutdiv{
+    padding-top: 3%;
+    text-align: center;
+  }
+  .heading-about{
+    padding-top: 5%;
+  }
+  /* products */
+  .product-img{
+    width:30%;
+  }
+}
+@media (max-width:710px){
+  .product-img{
+    width:60%;
+  }
+  .about-img{
+    width:30%;
+  }
+  .title-img{
+    width:60%;
+  }
+}
